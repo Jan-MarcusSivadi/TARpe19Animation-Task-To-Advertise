@@ -1,0 +1,51 @@
+:root {
+    --BG-color: rgb(0, 0, 0);
+    --dark-color: rgb(0, 0, 0);
+    --medium-color: rgba(41, 235, 218, 0.671);
+    --light-color: rgba(255, 255, 255, 0.397);
+    --text-color: rgb(230, 230, 230);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: var(--BG-color);
+    text-align: center;
+    line-height: 1.6;
+    padding: 0rem;
+    color: var(--text-color);
+}
+
+.body {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.header {
+    height: 40vh;
+    background-image: linear-gradient(to top right, var(--light-color), var(--dark-color)), 
+    url('../img/gamingPC.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0%, 100% 82%, 0 95%);
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 7rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.heading-primary-sub {
+    display: block;
+    font-size: 7rem;
+    text-transform: lowercase;
+}
